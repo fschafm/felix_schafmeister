@@ -1,0 +1,33 @@
+<footer class="site-footer h-card">
+    <data class="u-url" href="{{ "/" | relative_url }}"></data>
+  
+    <div class="wrapper">
+  
+      <div class="footer-col-wrapper">
+        <div class="footer-col footer-col-1">
+            <ul class="contact-list">
+                <li class="p-name">
+                  Contact:
+                </li>
+                {%- if site.email -%}
+                <li><a class="u-email" href="mailto:{{ site.email }}">&#9993; {{ site.email }}</a></li>
+                {%- endif -%}
+                <li>
+                    <a href="https://scholar.google.com/citations?user=qMxlmeYAAAAJ&hl=de&oi=ao"> &#127891; Google scholar</a>
+                </li>
+              </ul>
+        </div>
+  
+        <div class="footer-col footer-col-2">
+            
+        </div>
+  
+        <div class="footer-col footer-col-3">
+              <img
+            src="../assets/sse_logo.svg"/>
+        </div>
+      </div>
+  
+    </div>
+  
+  </footer>
