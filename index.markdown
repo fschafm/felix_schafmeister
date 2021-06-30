@@ -3,6 +3,8 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: page
+title: Home
+permalink: /home/
 ---
 
 ![image](assets/profile_sqr.jpg){: style="float: left; margin-top: 3em; margin-bottom: 3em; margin-right: 2em; width:200px; border-radius:50%"}
